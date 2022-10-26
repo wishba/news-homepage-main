@@ -80,10 +80,6 @@ p {
 }
 
 @media (max-width:600px) {
-  body {
-    position: relative;
-  }
-
   .logo {
     display: flex;
     width: 100%;
@@ -95,8 +91,9 @@ p {
 
   .header__nav {
     display: none;
-    position: absolute;
+    position: fixed;
     right: 0;
+    top: 0;
     height: 100%;
     background-color: var(--Off-white);
     text-align: right;
@@ -105,7 +102,7 @@ p {
   }
 
   .header__close {
-    margin: 0 1rem 5.5rem;
+    margin: clamp(1.5rem, 4vh, 5rem) 1rem 5.5rem;
   }
 
   .header__nav ul {

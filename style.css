@@ -121,6 +121,12 @@ p {
 }
 
 @media (min-width:600px) {
+
+  .header__menu,
+  .header__close {
+    display: none;
+  }
+
   .header__nav {
     margin-left: auto;
     margin-top: auto;

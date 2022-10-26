@@ -44,7 +44,7 @@ img {
   display: flex;
 }
 
-.logo {
+.logo img {
   height: 2rem;
 }
 
@@ -72,6 +72,16 @@ img {
 }
 
 @media (max-width:600px) {
+  .logo {
+    display: flex;
+    width: 100%;
+  }
+
+  .logo::after {
+    content: url(assets/images/icon-menu.svg);
+    margin: auto 0 auto auto;
+  }
+
   .nav {
     display: none;
     position: absolute;
@@ -86,7 +96,7 @@ img {
   .nav ul::before {
     content: url(assets/images/icon-menu-close.svg);
     display: block;
-    margin: 2rem 1rem 5.5rem;
+    margin: 0 1rem 5.5rem;
   }
 
   .nav ul {

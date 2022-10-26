@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  margin: clamp(1.5rem, 3vh, 5rem) auto auto;
+  margin: clamp(1.5rem, 4vh, 5rem) auto auto;
   padding: 0 1rem;
   max-width: 70rem;
   font-family: 'Inter', sans-serif;
@@ -60,6 +60,10 @@ img {
 .nav a {
   text-decoration: none;
   color: var(--Very-dark-blue);
+}
+
+.article {
+  margin-top: clamp(2rem, 5vh, 3.5rem);
 }
 
 .attribution {

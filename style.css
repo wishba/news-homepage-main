@@ -140,4 +140,13 @@ p {
   .header__nav li {
     margin-left: 2.5rem;
   }
+
+  .article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .article__image {
+    grid-column: span 2;
+  }
 }

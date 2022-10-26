@@ -32,10 +32,6 @@ p {
   font-size: 15px;
 }
 
-img {
-  max-width: 100%;
-}
-
 .test-bg {
   background-color: lightgray;
 }
@@ -64,6 +60,10 @@ img {
 
 .article {
   margin-top: clamp(2rem, 5vh, 3.5rem);
+}
+
+.article__image {
+  width: 100%;
 }
 
 .attribution {
@@ -111,6 +111,10 @@ img {
   .nav li {
     margin-bottom: 2rem;
     text-align: left;
+  }
+
+  .article__image {
+    content: url(assets/images/image-web-3-mobile.jpg);
   }
 }
 

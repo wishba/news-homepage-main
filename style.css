@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: clamp(1.5rem, 3vh, 5rem) auto auto;
   padding: 0 1rem;
   max-width: 70rem;
   font-family: 'Inter', sans-serif;

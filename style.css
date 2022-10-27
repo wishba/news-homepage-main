@@ -32,12 +32,9 @@ p {
   font-size: 15px;
 }
 
-.test-bg {
-  background-color: lightgray;
-}
-
 .header {
   display: flex;
+  margin-bottom: clamp(2rem, 5vh, 3.5rem);
 }
 
 .header__logo {
@@ -60,10 +57,6 @@ p {
 .header__nav a {
   text-decoration: none;
   color: var(--Very-dark-blue);
-}
-
-.article {
-  margin-top: clamp(2rem, 5vh, 3.5rem);
 }
 
 .article__image {
@@ -141,12 +134,25 @@ p {
     margin-left: 2.5rem;
   }
 
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
   }
 
   .article__image {
     grid-column: span 2;
   }
+
+  .section {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }

@@ -119,6 +119,29 @@ p {
   margin-bottom: 2rem;
 }
 
+.section>* {
+  display: flex;
+  gap: 2rem;
+}
+
+.section img {
+  height: 8rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section h2 {
+  color: var(--Grayish-blue);
+}
+
+.section h3 {
+  color: var(--Very-dark-blue);
+}
+
+.section p {
+  color: var(--Dark-grayish-blue);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -169,6 +192,10 @@ p {
   }
 
   .aside {
+    margin-top: 4rem;
+  }
+
+  .section {
     margin-top: 4rem;
   }
 }
@@ -225,5 +252,4 @@ p {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
 }

@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-news-homepage-with-grid-and-flex-Z_AXJ8KYbT)
+- [Live Site URL](https://wishba.github.io/news-homepage-main/)
 
 ## My process
 

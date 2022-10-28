@@ -68,6 +68,10 @@ p {
   color: var(--Very-dark-blue);
 }
 
+.header__nav a:hover {
+  color: var(--Soft-orange);
+}
+
 .article__image {
   width: 100%;
 }
@@ -92,6 +96,11 @@ p {
   text-transform: uppercase
 }
 
+.article button:hover {
+  cursor: pointer;
+  background-color: var(--Very-dark-blue);
+}
+
 .aside {
   background-color: var(--Very-dark-blue);
   padding: 1rem;
@@ -101,8 +110,14 @@ p {
   color: var(--Soft-orange);
 }
 
-.aside h3 {
+.aside a {
   color: var(--Off-white);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.aside a:hover {
+  color: var(--Soft-orange);
 }
 
 .aside p {
@@ -136,8 +151,14 @@ p {
   margin-top: 0;
 }
 
-.section h3 {
+.section a {
   color: var(--Very-dark-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.section a:hover {
+  color: var(--Soft-orange);
 }
 
 .section p {
